@@ -70,8 +70,8 @@ public class UserController {
         }
         String userAccount = userLoginRequest.getUserAccount();
         String userPassword = userLoginRequest.getUserPassword();
-        System.out.println("----------"+userAccount);
-        System.out.println("-----------"+userPassword);
+        System.out.println("-----登陆账号-----"+userAccount);
+        System.out.println("-------登陆密码----"+userPassword);
         if (StringUtils.isAnyBlank(userAccount, userPassword)) {
             throw new BusinessException(ErrorCode.PARAMS_ERROR);
         }
