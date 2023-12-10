@@ -1,0 +1,2 @@
+#spingboot starter
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=com.example.yuapiclientsdk.YuApiClientConfig
