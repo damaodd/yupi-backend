@@ -24,6 +24,14 @@ public class User implements Serializable {
      * 用户昵称
      */
     private String userName;
+    /**
+     * 签名
+     */
+    private String accessKey;
+    /**
+     * 签名
+     */
+    private String secretKey;
 
     /**
      * 账号
